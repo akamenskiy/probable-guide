@@ -5,9 +5,20 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>test to node.js school</title>
 </head>
 <body>
-
+<form action="success.json" id="myForm">
+    <label for="fio">ФИО</label>
+        <input id="fio" name="fio" type="text">
+    <label for="email">Почта</label>
+    <input id="email" name="email" type="email">
+    <label for="phone">Телефон</label>
+    <input id="phone" name="phone" type="text">
+    <button id="submitButton">submit</button>
+</form>
+<div id="resultContainer"></div>
+<script src="index.js"></script>
 </body>
 </html>
